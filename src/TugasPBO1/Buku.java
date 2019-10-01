@@ -1,6 +1,7 @@
 package TugasPBO1;
 public class Buku {
     private String Author;
+    private String Name;
     private int Year;
     private int Print;
     private double Price;
