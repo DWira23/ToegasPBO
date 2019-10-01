@@ -13,7 +13,7 @@ public class Buku {
         this.Author = Author;
     }
     
-    public void setName(String Author){
+    public void setName(String Name){
         this.Name = Name;
     }
 
