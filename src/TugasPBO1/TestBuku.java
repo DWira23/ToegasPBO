@@ -6,6 +6,8 @@ public class TestBuku {
         System.out.println("_________________________________________________");
         System.out.print("The Name of The Author is ");
         String Author = input.nextLine();
+        System.out.print("The Title of The Book is ");
+        String Name = input.nextLine();
         System.out.print("The Year of Publication is ");
         int Year = input.nextInt();
         System.out.print("The Number of Printed Book is ");
@@ -16,6 +18,7 @@ public class TestBuku {
         
         Buku B1 = new Buku();
         B1.setAuthor(Author);
+        B1.setName(Name);
         B1.setYear(Year);
         B1.setPrint(Print);
         B1.setPrice(Price);
